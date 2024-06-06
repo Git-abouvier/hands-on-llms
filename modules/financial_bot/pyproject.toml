@@ -8,10 +8,10 @@ packages = [{include = "financial_bot"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-qdrant-client = "1.1.1"
-langchain = "^0.0.285"
+qdrant-client = "1.9.0"
+langchain = "^0.2.2"
 comet-ml = "3.35.1"
-transformers = "^4.31.0"
+transformers = "^4.38.0"
 peft = "^0.4.0"
 accelerate = "^0.21.0"
 python-dotenv = "^1.0.0"
@@ -22,11 +22,11 @@ comet-llm = "^1.1.0"
 bitsandbytes = "^0.41.1"
 torch = "2.0.1"
 beam-sdk = "0.15.9"
-gradio = "^3.48.0"
+gradio = "^4.14.0"
 unstructured = "^0.10.28"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
+black = "^24.3.0"
 ruff = "^0.0.285"
 
 [[tool.poetry.source]]
